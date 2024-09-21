@@ -1,0 +1,475 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta name="framework" content="Angular">
+      <meta name="server" content="Node.js">
+      <meta name="database" content="MongoDB">
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AAYUSH</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+    <link rel="icon" type="image/x-icon" href="assets\svg\angular-icon-seeklogo.svg">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="assets/2020009.jpg"
+              alt="Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">AAYUSH SINGH</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">Skills </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>           
+            
+            <li class="header__link-wrapper">
+              <a href="./index.html#education" class="header__link">
+                Education
+                
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#Education">Education</a>
+            </li>
+            
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <div class="typewriter"><h1 class="heading-primary">Hey, I Am <span class = "auto-type" style="color: rgb(9, 2, 53);"></span></h1></div>
+        <script src = "https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+          var typed = new Typed(".auto-type",{
+            strings: ["Aayush Singh"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+          })
+        </script>
+        
+        <div class="home-hero__info">
+          <p class="text-primary">
+            An SDA at Biz2X and a passionate software developer. I love diving into creative projects, building efficient solutions, and constantly pushing the boundaries of technology. With a blend of innovation and practicality, I enjoy crafting code that’s not just functional but also fun to create. Let’s build something awesome!
+          </p>
+        </div>
+        
+      </div>
+
+      <div class="img"><img src="" alt=""></div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="www.linkedin.com/in/aayush-singh-iiitd" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/AAYUSHSINGH01/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <!-- <div class="home-hero__social">
+          <a href="https://x.com/?lang=en" class="home-hero__social-icon-link">
+            <img style="color: white;"
+              src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div> -->
+        <!-- <div class="home-hero__social">
+          <a href="https://www.youtube.com/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/yt-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div> -->
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/simple_x_ayush"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Skills</span>
+          <span class="heading-sec__sub">
+            Below the skills that i have aquired over my journey of learning and working.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <!-- <h3 class="about__content-title">Get to know me!</h3> -->
+            <!-- <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>PEARL</strong>
+                and I'm a <strong> Frontend Web Developer </strong> located in
+                INDIA. I've done
+                <strong> remote </strong>
+                projects for agencies, consulted for startups, and collaborated
+                with talented people to create
+                <strong>digital products </strong>
+                for both business and consumer use.
+              </p>
+              <p class="about__content-details-para">
+                I'm a bit of a digital product junky. Over the years, I've used
+                hundreds of web and mobile apps in different industries and
+                verticals. Feel free to
+                <strong>contact</strong> me here.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div> -->
+          <div>
+            
+          </div>
+          <div class="about__content-skills"></div>
+            <h3 class="about__content-title">Tech Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">DSA</div>
+              <div class="skills__skill">Computer Architecture</div>
+              <div class="skills__skill">web 
+                development</div>
+              <div class="skills__skill">android development</div>
+              <div class="skills__skill"> UI/UX</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Java</div>
+              <div class="skills__skill">C</div>
+              <div class="skills__skill">C++</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Flutter</div>
+              <div class="skills__skill">Linux</div>
+            </div>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Business Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Market Research</div>
+              <div class="skills__skill">Communication</div>
+              <div class="skills__skill"> Data Analysis</div>
+              <div class="skills__skill">Trend Identification</div>
+              <div class="skills__skill">Report Writing</div>
+              <div class="skills__skill">Time Management</div>
+              <div class="skills__skill">Critical analysis</div>
+              <div class="skills__skill">Probability and 
+                Statistics</div>
+              <div class="skills__skill">Product Prototyping</div>
+       
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Below are my Development and Research projects that I have worked on with dedication and passion.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="assets/1.png"
+                alt="PROJECT 1"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Lock-Free Distribution Learning</h3>
+              <p class="projects__row-content-desc">
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Know More</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="assets/2.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Blur Detection For VQA models</h3>
+              <p class="projects__row-content-desc">
+                
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Know More</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="assets/3.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Public Health Record App</h3>
+              <p class="projects__row-content-desc">
+                
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Know More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p id="education" class="gg"></p>
+
+
+
+
+
+
+
+
+    <section id="education">
+      <h2 class="heading-sec__main" style="font-family: 'Source Sans Pro', sans-serif;;">Education</h2>
+      <div class="education-container">
+        <div class="education-item">
+          <h3>B.Tech (CSE)</h3>
+          <p>Indraprastha Institute of Information Technology Delhi</p>
+          <span>2020 - 2024</span>
+          <p><strong>CGPA - 7.14</strong></p>
+        </div>
+        <div class="education-item">
+          <h3>Higher Secondary Education</h3>
+          <p>St Marks Sr. Secondary Public School, North East Delhi
+            CBSE
+            </p>
+          <span>2029 - 2020</span>
+          <p><strong>Percentage - 88%</strong></p>
+        </div>
+        <div class="education-item">
+          <h3>Secondary Education</h3>
+          <p>Hindon Public Sr. Sec. School, North East Delhi
+            CBSE
+            </p>
+          <span>2017 - 2018</span>
+          <p><strong>CGPA - 9.3</strong></p>
+        </div>
+        
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+           Kindly fill the form below to get in touch with me.
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button onclick = "location.reload()" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="www.linkedin.com/in/aayush-singh-iiitd">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/AAYUSHSINGH01/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              
+             
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/simple_x_ayush">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">AAYUSH</h4>
+            <p class="main-footer__short-desc">
+             This Website is a personal Portfolio demonstrating basic web-dev skills for Biz2X. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

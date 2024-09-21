@@ -1,0 +1,39 @@
+.typewriter h1 p {
+      overflow: hidden; /* Ensures the text is hidden */
+      border-right: .15em solid #333; /* Creates a cursor effect */
+      white-space: nowrap; /* Prevents line breaks */
+      margin: 0 auto; /* Centers the text */
+      letter-spacing: .15em; /* Spacing between letters */
+      animation: typing 4s steps(12, end) infinite, blink 0.75s step-end infinite;
+ 
+  }
+  
+  @keyframes typing {
+      0% {
+          width: 0; /* Start from 0 width */
+      }
+      30% {
+          width: 40%; /* Start from 0 width */
+      }
+      60% {
+          width: 70%; /* Full width */
+      }
+      80% {
+          width: 80%; /* Full width */
+      }
+      60% {
+          width: 30%; /* Hold full width */
+      }
+      100% {
+          width: 0; /* Reset to 0 width for looping */
+      }
+  }
+  
+  @keyframes blink {
+      0%, 100% {
+          border-color: #333; /* Cursor visible */
+      }
+      50% {
+          border-color: transparent; /* Cursor blink effect */
+      }
+  }
